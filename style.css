@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+
+.upper > img {
+    height: 200px;
+    width: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.juan {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.uleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Txtheader {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.txtcontent {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-right: 3rem;
+}
+
+.logo {
+    display: flex;
+    padding-left: 3rem;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.mcontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.lower { 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.lower > .from {
+    display: flex;
+    align-items: flex-end;
+}
+
+.bottom {
+    display: flex;
+    background-color: blue;
+}
+
+.bottom > .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}

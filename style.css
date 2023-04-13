@@ -1,19 +1,29 @@
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
-    flex: 1;
+}
+
+.whole-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin: 0;
+    align-items: center;
+    padding: 0;
 }
 .upper {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    height: auto;
+    align-content: center;
+    padding: 0px 100px;
 }
 
-.upper > img {
-    height: 200px;
-    width: 300px;
+.great {
+    width: 350px;
 }
 
 .header {
@@ -21,16 +31,36 @@ body {
     justify-content: space-between;
 }
 
+.header > .logo {
+    padding-left: 0;
+}
+
+.header > .links {
+    padding-right: 0;
+}
+
 .juan {
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.juan > .uleft {
+    align-items: end;
 }
 
 .uleft {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 200px;
+}
+
+.uleft > .usignup {
+    width: min-content;
 }
 
 .Txtheader {
@@ -62,6 +92,8 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    height: auto;
+    padding: 0px 100px;
 }
 
 .mcontent {
@@ -69,6 +101,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     flex-shrink: 1;
+    font-style: roboto;
 }
 
 img {
@@ -78,18 +111,22 @@ img {
 
 .lower { 
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    background-color: #e5e7eb;
+    padding: 0px 100px;
 }
 
-.lower > .from {
+.from {
     display: flex;
-    align-items: flex-end;
+    align-content: flex-end;
 }
 
 .bottom {
     display: flex;
     background-color: blue;
+    height: auto;
+    padding: 0px 100px;
 }
 
 .bottom > .box {
@@ -100,7 +137,8 @@ img {
 .header,
 .footer {
     display: flex;
-    justify-content: space-between;
     background-color: #1F2937;
     color: white;
+    justify-content: space-between;
+    padding: 0px 100px;
 }

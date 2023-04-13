@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* navbar */
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;  
+}
+
+
+
+.logo img {
+    height: 80px;
+}
+
+
+.awesome {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.awesome_left {
+    display:flex;
+    flex-direction: column;
+}
+
+.Quote {
+    background-color: #E5E7EB;
+}

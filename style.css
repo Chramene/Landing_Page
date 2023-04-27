@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     flex: 1 0 auto;
     margin: 0;
-    align-items: center;
     padding: 0;
 }
 .upper {
